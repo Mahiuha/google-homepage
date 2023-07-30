@@ -17,7 +17,7 @@ The objective is simple, have a page that looks the same as the real Google home
 ![CSS3](https://img.shields.io/badge/≡-CSS3-1572B6?logo=CSS3&style=flat-square&logoColor=1572B6&labelColor=282828)
 ![GitHub](https://img.shields.io/badge/≡-GitHub-181717?logo=GitHub&style=flat-square&labelColor=282828)
 
-![Google_homepage](images/pic.png)
+![google-homepage](https://github.com/Mahiuha/google-homepage/assets/35099243/823d435e-8b3f-4e2c-8d04-f431972015cd)
 > Google homepage.
 
 ## Live demo:computer:
