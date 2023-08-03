@@ -4,8 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Google homepage" />
-    <title>Google</title>
+    <!-- Primary Meta Tags -->
+    <title>Google homepage</title>
+    <meta name="title" content="Google homepage" />
+    <meta name="description" content="Google homepage using HTML and CSS" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://diegozencode.github.io/google-homepage/"
+    />
+    <meta property="og:title" content="Google homepage" />
+    <meta
+      property="og:description"
+      content="Google homepage using HTML and CSS"
+    />
+    <meta
+      property="og:image"
+      content="https://diegozencode.github.io/google-homepage/images/google-homepage.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://diegozencode.github.io/google-homepage/"
+    />
+    <meta property="twitter:title" content="Google homepage" />
+    <meta
+      property="twitter:description"
+      content="Google homepage using HTML and CSS"
+    />
+    <meta
+      property="twitter:image"
+      content="https://diegozencode.github.io/google-homepage/images/google-homepage.png"
+    />
     <link
       rel="shortcut icon"
       href="./images/g-letter-36539-32x32.ico"
@@ -28,7 +62,9 @@
           <li class="round">
             <a href=""><i class="fas fa-th"></i></a>
           </li>
-          <li><a href="" class="button">Do not click here</a></li>
+          <li>
+            <a href="./index-dark.html" class="button">Do not click here</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -44,34 +80,41 @@
     <!-- Search -->
     <section class="search">
       <form action="">
-        <input type="text" />
-        <button type="submit">Google Search</button>
-        <button type="submit">I'm Feeling Lucky</button>
+        <div class="input">
+          <input type="text" />
+          <i class="fas fa-search search-word"></i>
+        </div>
+        <div class="center">
+          <a href="" type="submit" class="submit">Google Search</a>
+          <a href="" type="submit" class="submit">I'm Feeling Lucky</a>
+        </div>
       </form>
     </section>
 
     <!-- footnote -->
-    <section>
-      <p>Google offered in: <a href="">Español (Latinoamérica)</a></p>
+    <section class="footnote">
+      <p class="center">
+        Google offered in: &nbsp;<a href=""> Español (Latinoamérica)</a>
+      </p>
     </section>
 
     <!-- footer -->
     <footer>
-      <div>
+      <div class="footer-country">
         <p>Colombia</p>
       </div>
-      <div>
-        <div>
+      <div class="footer">
+        <ul class="main-settings">
           <li><a href="">About</a></li>
           <li><a href="">Advertising</a></li>
           <li><a href="">Business</a></li>
           <li><a href="">How Search works</a></li>
-        </div>
-        <div>
+        </ul>
+        <ul class="secondary-settings">
           <li><a href="">Privacy</a></li>
           <li><a href="">Terms</a></li>
           <li><a href="">Settings</a></li>
-        </div>
+        </ul>
       </div>
     </footer>
   </body>
